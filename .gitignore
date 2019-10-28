@@ -1,3 +1,4 @@
 # ignore build versions
 *.vsix
 .DS_Store
+copilation.txt
