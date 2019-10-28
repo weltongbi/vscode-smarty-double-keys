@@ -1,0 +1,46 @@
+{
+	"name": "smarty-double-keys",
+	"displayName": "Smarty",
+	"license": "GPL",
+	"description": "Syntax highlighting for the Smarty templating language.",
+	"version": "0.5.0",
+	"icon": "images/logo.png",
+	"publisher": "weltongbi",
+	"engines": {
+		"vscode": "^0.10.x"
+	},
+	"categories": ["Snippets", "Programming Languages"],
+	"keywords": [
+		"smarty",
+		"php",
+		"syntax",
+		"snippets"
+	],
+	"bugs": {
+        "url": "https://github.com/weltongbi/vscode-smarty-double-keys/issues"
+    },
+	"homepage": "https://github.com/weltongbi/vscode-smarty-double-keys/blob/master/README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/weltongbi/vscode-smarty-double-keys.git"
+    },
+	"contributes": {
+		"languages": [{
+			"id": "smarty",
+			"aliases": ["Smarty", "smarty"],
+			"extensions": [".tpl",".smarty",".html.smarty"],
+			"configuration": "./smarty.configuration.json"
+		}],
+		"grammars": [{
+			"language": "smarty",
+			"scopeName": "text.html.smarty",
+			"path": "./syntaxes/smarty.tmLanguage"
+		}],
+		"snippets": [
+			{
+				"language": "smarty",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	}
+}
