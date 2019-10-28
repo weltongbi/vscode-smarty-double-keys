@@ -1,9 +1,9 @@
 {
 	"name": "smarty-double-keys",
-	"displayName": "Smarty",
+	"displayName": "Smarty Double Keys",
 	"license": "GPL",
 	"description": "Syntax highlighting for the Smarty templating language.",
-	"version": "0.5.0",
+	"version": "0.5.1",
 	"icon": "images/logo.png",
 	"publisher": "weltongbi",
 	"engines": {

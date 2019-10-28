@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.5.1
+Fixed minor errors.
+
+## 0.5.0
+modified for dual keys [weltongbi](https://github.com/weltongbi/vscode-smarty-double-keys)
+
 ## 0.4.0
 Add a `LICENSE` file (This project is licensed under GPL).
 
