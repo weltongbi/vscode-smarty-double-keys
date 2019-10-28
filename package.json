@@ -3,7 +3,7 @@
 	"displayName": "Smarty Double Keys",
 	"license": "GPL",
 	"description": "Syntax highlighting for the Smarty templating language.",
-	"version": "0.5.1",
+	"version": "0.5.2",
 	"icon": "images/logo.png",
 	"publisher": "weltongbi",
 	"engines": {
